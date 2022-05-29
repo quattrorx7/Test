@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "lib": [
+        "es6"
+      ],
+      "downlevelIteration": true,
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "jsx": "react-native",
+    },
+    "exclude": [
+      "node_modules",
+      "babel.config.js",
+      "metro.config.js",
+      "jest.config.js"
+    ]
+  }
+  
