@@ -6,7 +6,7 @@
 > выводит список полученных элементов 
 > по нажатию на элемент списка - дополнительная информация об элементе списка отображается на следующем экране.
 
-API: https://docs.github.com/en/rest/reference/activity#list-public-events
+API: [link text itself]: https://docs.github.com/en/rest/reference/activity#list-public-events
 
 ## Требования
 
