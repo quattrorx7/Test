@@ -31,6 +31,7 @@ export const CommitsList: FC<Props> = ({ data, getCommitItemPressHandler }) => {
     <FlatList
       ItemSeparatorComponent={renderItemSeparator}
       contentContainerStyle={styles.contentContainer}
+      keyExtractor={(item) => item?.sha}
       data={data}
       renderItem={renderItem}
     />

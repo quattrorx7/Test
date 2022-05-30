@@ -55,6 +55,7 @@ export const EventsList: FC<Props> = ({
       contentContainerStyle={styles.contentContainer}
       refreshControl={renderRefreshControl}
       data={data}
+      keyExtractor={(item) => item.id}
       onScrollBeginDrag={onScrollStart}
       onScrollEndDrag={onScrollEnd}
       onMomentumScrollBegin={onScrollStart}
