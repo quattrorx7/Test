@@ -18,7 +18,7 @@ export const MODULE_NAME = 'events'
 export const fetchEventsList = createAsyncThunk('events/fetchEvents', async () => {
   const response = await axios.get<Event[]>('https://api.github.com/events')
 
-  return response?.data
+  return response?.data?.slice(0, 25)
 })
 
 export const eventsSlice = createSlice({

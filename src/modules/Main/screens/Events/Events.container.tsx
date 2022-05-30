@@ -17,7 +17,7 @@ export const EventsContainer = () => {
     if (!isScrolling) {
       onRefresh()
     }
-  }, 10000)
+  }, 60000)
 
   useLayoutEffect(() => {
     getEvents()

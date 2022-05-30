@@ -13,7 +13,7 @@ export const useEvents = () => {
     await dispatch(fetchEventsList())
     setTimeout(() => {
       setCanRefreshLists(true)
-    }, 5000)
+    }, 15000)
   }, [dispatch])
 
   const onRefresh = useCallback(() => {
